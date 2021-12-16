@@ -1,14 +1,23 @@
 {
-  "name": "pretty-print-time",
-  "version": "1.0.0",
+  "name": "pretty-print-ms",
+  "version": "1.0.2",
   "description": "Convert milliseconds to something easier on the eyes",
   "main": "build/index.js",
   "scripts": {
     "test": "jest",
     "lint": "eslint .",
     "build": "tsc -b",
-    "watch": "tsc --watch"
+    "watch": "tsc --watch",
+    "prepublish": "npm run build"
   },
+  "keywords": [
+    "log",
+    "time",
+    "pretty",
+    "print",
+    "milliseconds",
+    "ms"
+  ],
   "author": "Sahar Brodbeker <saharonb@gmail.com>",
   "license": "ISC",
   "devDependencies": {
