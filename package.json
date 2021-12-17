@@ -1,6 +1,6 @@
 {
   "name": "pretty-print-ms",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Convert milliseconds to something easier on the eyes",
   "main": "build/index.js",
   "scripts": {
