@@ -20,6 +20,11 @@
   ],
   "author": "Sahar Brodbeker <saharonb@gmail.com>",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sahariko/pretty-print-ms.git"
+  },
+  "homepage": "https://github.com/sahariko/pretty-print-ms",
   "devDependencies": {
     "@types/jest": "^27.0.3",
     "@types/node": "^17.0.0",
