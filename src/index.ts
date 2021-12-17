@@ -28,7 +28,6 @@ export default function millisecondsToString(t: number) {
 
   {
     const [m, s] = getParts(t, SECONDS_IN_MINUTE);
-    console.log('m,s:', m, s);
 
     if (m < MINUTES_IN_HOUR) {
       return `${m}m ${s}s`;
